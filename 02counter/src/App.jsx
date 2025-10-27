@@ -13,6 +13,18 @@ function App() {
     } 
   };
 
+  const addValue2 = () =>{
+    if(counter==20){
+      return;
+    }else{
+      setCounter(prevCounter =>prevCounter +1);
+      setCounter(prevCounter =>prevCounter +1);
+      setCounter(prevCounter =>prevCounter +1);
+      setCounter(prevCounter =>prevCounter +1);
+      setCounter(prevCounter =>prevCounter +1);
+    } 
+  };
+
   const removeValue = () =>{
     if (counter == 0) {
       return;
